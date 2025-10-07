@@ -106,44 +106,44 @@ function addCroquette(bouton) {
   counter.textContent = " 🦴  Croquettes : " + croquettes;
 
   if (croquettes >= 10 && croquettes <= 19) {
-    dog.setAttribute("src", "/images/vienne_2.jpg");
+    dog.setAttribute("src", "vienne_2.jpg");
     console.log("atteint");
     age.textContent = " Vienne a 3 mois !";
     jauge.classList.remove("mois2");
     jauge.classList.add("mois3");
 
   } else if (croquettes >= 20 && croquettes <= 29) {
-    dog.setAttribute("src", "/images/vienne_3.jpg");
+    dog.setAttribute("src", "vienne_3.jpg");
     age.textContent = " Vienne a 4 mois !";
     jauge.classList.remove("mois3");
     jauge.classList.add("mois4");
 
   } else if (croquettes >= 30 && croquettes <= 39) {
-    dog.setAttribute("src", "/images/vienne_4.jpg");
+    dog.setAttribute("src", "vienne_4.jpg");
     age.textContent = " Vienne a 6 mois !";
     jauge.classList.remove("mois4");
     jauge.classList.add("mois6");
 
   } else if (croquettes >= 40 && croquettes <= 49) {
-    dog.setAttribute("src", "/images/vienne_5.jpg");
+    dog.setAttribute("src", "vienne_5.jpg");
     age.textContent = " Vienne a 8 mois !";
     jauge.classList.remove("mois6");
     jauge.classList.add("mois8");
 
   } else if (croquettes >= 50 && croquettes <= 59) {
-    dog.setAttribute("src", "/images/vienne_6.jpg");
+    dog.setAttribute("src", "vienne_6.jpg");
     age.textContent = " Vienne a 10 mois !";
     jauge.classList.remove("mois8");
     jauge.classList.add("mois10");
 
   } else if (croquettes >= 60 && croquettes <= 69) {
-    dog.setAttribute("src", "/images/vienne_7.jpg");
+    dog.setAttribute("src", "vienne_7.jpg");
     age.textContent = " Vienne a 1 an !";
     jauge.classList.remove("mois10");
     jauge.classList.add("mois12");
 
   } else if (croquettes >= 110) {
-    dog.setAttribute("src", "/images/vienne_vieille.jpg");
+    dog.setAttribute("src", "vienne_vieille.jpg");
     age.textContent = " Vienne a 100 ans !";
     jauge.classList.remove("mois12");
     jauge.classList.add("an100");
