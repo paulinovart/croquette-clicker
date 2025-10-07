@@ -1,0 +1,361 @@
+
+*{
+    border: px solid red;
+}
+
+
+.image{
+    
+    cursor: pointer;
+    padding: 50px ;
+    display: flex;
+
+
+}
+
+
+.image img{
+    width: 30vw;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+
+    
+}
+#reset{
+    display: flex;
+    color: rgb(61, 0, 0);
+    background-color: #ffe571;
+    padding: 10px;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+
+}
+#dog{
+    transition: transform 1s 0.3s ease-in-out;
+}
+
+#dog:hover{
+    transform: rotate(10deg);
+    
+}
+
+#reset:hover{
+    background-color: #fff3bd;
+
+    transform: scale(1.5);
+    
+}
+
+
+#reset img{
+
+    margin: auto;
+    height: 100%;
+}
+
+#reset img:hover{
+    transform: rotate(360deg);
+    transition: transform 0.8s ease-in-out;
+}
+
+
+body{
+    /*background-image: url("/images/fond_ecran_5.jpg");*/
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.croquettes-container{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 6%;
+    
+}
+
+
+.croquettes-container img{
+    width: 30%;
+    object-fit: contain;
+    
+}
+
+
+.button{
+    display: flex;
+    color: white;
+    text-align: center;
+    background-color: #9c6644;
+    padding: 0;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    z-index: 100;
+
+}
+
+
+.petite{
+    transition: transform 0.5s ease-in-out;
+}
+.petite:hover{
+
+    transform: scale(0.8);
+  
+}
+
+.grande{
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.grande:hover{
+
+    transform: scale(1.05);
+    
+}
+
+.geante{
+    transition: transform 0.5s ease-in-out;
+}
+
+.geante:hover{
+
+    transform: scale(1.2);
+ 
+}
+
+
+
+.bouttons-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.contenu{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 1);
+    
+}
+
+
+
+h1{
+  
+    text-align: center;
+    color: #9c6644;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    font-family: "olivia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+h3
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 2vw ;
+    width: 100%;
+    font-size: 1vw;
+    margin: 0;
+}
+
+
+
+
+
+.texte{
+    width: 50%;
+   
+}
+
+
+#counter{
+    font-size: 2vw;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+#jauge-container{
+    display: flex;
+    width: 20%;
+    height: 20px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    
+
+}
+
+h2{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+#age{
+    font-size: 1.8vw;
+}
+
+#jauge{
+
+    height: 100%;
+
+    background-color: #ff8fab;
+    border-radius: 10px;
+
+
+}
+
+/* Animation du +1 */
+#float-number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+
+
+    
+}
+
+.visible{
+    display: block;
+    animation: floatUp 1s ease-in-out ;
+
+ 
+}
+
+
+
+
+h6{
+    font-size: 100px;
+    color: #ff8fab;
+    font-family: Arial, Helvetica, sans-serif;
+;
+   
+}
+
+
+
+
+
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    50% {
+        opacity: 1;
+       ;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+
+
+.mois2
+{
+    width: 20%;
+
+   
+}
+
+.mois3
+{
+    width: 30%;
+}
+
+.mois4
+{
+    width: 40%;
+}
+
+.mois6
+{
+    width: 60%;
+}
+
+.mois8
+{
+    width: 75%;
+}
+
+.mois10
+{
+    width: 87%;
+}
+
+.mois12
+{
+    width: 100%;
+}
+
+.an100{
+
+    width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+@media (max-width:1134px){
+
+    h1,h2{
+        width: 90%;
+    }
+
+    .image,.texte{
+        width: 100%;
+    }
+
+    .contenu{
+        display: block;
+    }
+
+}

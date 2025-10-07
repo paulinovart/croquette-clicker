@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>croquette clicker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/yvp8sta.css" />
+  </head>
+  <body>
+    <h1 id="title">CROQUETTE CLICKER</h1>
+    <h2>Donne des croquettes à vienne pour la faire grandir !</h2>
+
+    <div class="contenu">
+      <div class="image">
+        <img id="dog" src="public/images/vienne_bb.png" alt="vienne" />
+      </div>
+
+      <div class="texte">
+        <div id="jauge-container">
+          <div id="jauge" class="mois2"></div>
+        </div>
+        <h2 id="age">Vienne a 2 mois</h2>
+
+        <div class="croquettes-container">
+          <img src="public/images/petite_croquette.png" alt="petite croquette">
+          <img src="public/images/moyenne_croquette.png" alt="moyenne croquette">
+          <img src="public/images/grande_croquette.png" alt="grande croquette">
+        </div>
+
+        <div class="bouttons-container">
+
+       
+
+        <!--<button class="button">
+          <h3>Donner une petite croquette à Vienne</h3>
+        </button>
+
+        <button class="button" >
+          <h3>Donner une grande croquette à Vienne</h3>
+        </button>-->
+
+      </div>
+        
+
+        <p id="counter" class="">🦴 Croquettes : 0</p>
+        <button id="reset" >
+          <img src="public/images/refresh.svg" alt="">
+        </button>
+      </div>
+    </div>
+
+
+    <div class="invisible" id="float-number">
+      <h6>
+        +1
+      </h6>
+    </div>
+  </body>
+  <script type="module" src="/src/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5/dist/confetti.browser.min.js"></script>
+</html>
